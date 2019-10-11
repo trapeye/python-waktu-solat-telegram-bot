@@ -67,7 +67,7 @@ for kluang in xml.findAll('description')[:1]:
 
 
                                 def main():
-                                    updater = Updater("919065447:AAHe9Ro2IKtbQj8mefJ9r0xjzBUXRy2tEcQ", use_context=True)
+                                    updater = Updater("TOKEN", use_context=True)
 
                                     dp = updater.dispatcher
 
